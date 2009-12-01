@@ -1,0 +1,300 @@
+/***************************************************************************
+* Copyright 2009 Benjamin Kellermann, Hagen Wahrig                         *
+*                                                                          *
+* This file is part of dudle.                                              *
+*                                                                          *
+* Dudle is free software: you can redistribute it and/or modify it under   *
+* the terms of the GNU Affero General Public License as published by       *
+* the Free Software Foundation, either version 3 of the License, or        *
+* (at your option) any later version.                                      *
+*                                                                          *
+* Dudle is distributed in the hope that it will be useful, but WITHOUT ANY *
+* WARRANTY; without even the implied warranty of MERCHANTABILITY or        *
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public     *
+* License for more details.                                                *
+*                                                                          *
+* You should have received a copy of the GNU Affero General Public License *
+* along with dudle.  If not, see <http://www.gnu.org/licenses/>.           *
+***************************************************************************/
+
+
+td.ayes, td.bmaybe, td.cno { cursor:default;}
+td.ayes, td.input-ayes, input.choosen  { background-color:#9C6}
+td.cno, td.input-cno { background-color:#FC9 }
+td.bmaybe, td.input-bmaybe { background-color:#FF6}
+td.undecided { background-color:#DDD }
+
+td.checkboxes {
+	background-color: #DDD;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+table.checkboxes{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+label { cursor: pointer; }
+
+td.name {
+	text-align:right;
+}
+
+#active, #activedeletebutton{
+	background-color:#A00;
+}
+
+td.name a,td.name a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+th.weekday{
+	width: 2.5em;
+}
+
+input.navigation, input.disabled, input.choosen, input.notchoosen {
+	border-width: 1px; 
+	border-style: solid;
+	border-color: black;
+	padding: 0px;
+	cursor: pointer;
+	width: 100%;
+}
+
+input.navigation {
+	color: white; 
+	background-color: black;
+}
+
+input.disabled { background-color:#DDD;color:#BBB}
+
+table { 
+	border: none; 
+	color:black;
+}
+
+table.calendarday {
+	border-spacing: 2px;
+}
+
+table.calendarday form {
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendarday td {
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendarday td input{
+	margin: 0px;
+	padding: 1px;
+}
+
+div.undo{
+	text-align: center;
+	margin-top: 2em;
+}
+
+td.settingstable, table.settingstable td{
+	text-align: left;
+}
+table.settingstable td.label{
+	text-align: right;
+}
+
+td.historycomment{
+	text-align: left;
+}
+td {
+	vertical-align:middle;
+	text-align:center;
+	border-width: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+td.sum, tr.participantrow, tr#add_participant, tr#summary { 
+	background-color:Silver;
+}
+
+td.polls {
+	text-align:left;
+}
+
+tr.participantrow:hover {
+	background: #AAA;
+}
+
+th { 
+	padding-left: 3px;
+	padding-right: 3px;
+	color: white;
+	background-color:black;
+	font-weight: normal;
+}
+
+th a{
+	color: white;
+	text-decoration: none;
+}
+
+td.date { 
+	color: Gray;
+}
+
+html {
+	background-color: white;
+	
+	font-family:Arial,sans-serif;
+	color:#617BA0;
+}
+
+body {
+	margin: 0px;
+	background-color:#6D8AB2;
+	background-image:url(primelife/primelife-left-bg.jpg);
+	background-position:center bottom;
+	background-repeat:repeat-x;
+}
+
+legend input{
+color:inherit;
+}
+
+#header1 {
+	background-image:url(primelife/primelife-logo.jpg);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	height:113px;
+	width: 310px;
+	float:left;
+}
+
+#header2 {
+	background-color:#6D8AB2;
+	background-image:url(primelife/primelife-bg.jpg);
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:113px;
+	margin:0;
+	padding:0;
+}
+
+#main {
+	background: white;
+	padding: 2em;
+	top: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right:auto;
+	width:auto;
+	display: table;
+	min-width: 55em;
+	
+	background-image:url(primelife/primelife-body-bg.jpg);
+	background-position:80% 100%;
+	background-repeat:no-repeat;
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+}
+
+.textcolumn{
+	max-width: 45em;
+}
+
+.shorttextcolumn{
+	max-width: 20em;
+}
+.hint{
+	font-size:small;
+}
+
+div#tabs{
+	text-align: center;
+	
+	min-height:4.5ex;
+	background-color:#6D8AB2;
+	background-image:url(primelife/primelife-top-bg.jpg);
+	background-position:right top;
+	background-repeat:repeat-y;
+	border-top:6px solid #FFC13C;
+}
+
+body#main, div#tabs ul{
+	margin-top: 2em;
+}
+
+div#tabs ul, p#history{
+	font-size: 80%;
+}
+
+div#tabs ul{
+	margin-left: 0em;
+	margin-bottom: 0em;
+	padding: 0em;
+	list-style-type: none;
+}
+
+div#tabs li{
+	background: white;
+	border-width: 1px;
+	display: inline;
+	
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+}
+
+div#tabs a{
+	text-decoration:none;
+}
+
+li#active_tab{
+	border-style: solid solid none; 
+	padding-bottom: 1px;
+}
+
+li.nonactive_tab{ 
+	border-style: solid;
+}
+
+li.nonactive_tab a:hover { 
+	color:#FFCA3C;
+}
+
+li.nonactive_tab a { 
+	color:inherit;
+}
+
+li.separator_tab {
+	margin-left: 2em;
+}
+
+pre#configwarning {
+	font-family: "Courier New",Courier,monospace;
+	letter-spacing:0;
+	margin-top: -12ex;
+	line-height:95%;
+	margin-left: -2ex;
+}
+.warning, .error{
+	color: red;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.comment { 
+	margin-top: 1ex; 
+	line-height: 1.4em;
+}
+
+form#ac_participant, form#ac {
+	background: #EEE;
+}
+form#ac_participant, form#ac, form#ac_admin{
+	padding: 1em;
+}
