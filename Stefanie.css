@@ -167,33 +167,18 @@ html {
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
-
-#main22 {
-	background: #fff;
-	padding: 2em;
-	color: #000;
-	top: 0px;
-	margin-top: 0px;
+#main{
 	margin-left: auto;
-	margin-right:auto;
-	width:auto;
-	display: table;
-	min-width: 55em;
+	margin-right:auto; 
+	display:table;
 }
-
-#main {
+#content {
 	background: #fff;
 	padding: 2em;
 	color: #000;
 	border: solid 1px #000;
 	top: 0px;
 	margin-top: 0px;
-	margin-left: auto;
-	margin-right:auto;
-	width:auto;
-	display: table;
-	min-width: 55em;
 }
 
 .textcolumn{
@@ -207,11 +192,7 @@ html {
 	font-size:small;
 }
 
-div#tabs{
-	text-align: center;
-}
-
-body#main, div#tabs ul{
+div#tabs ul{
 	margin-top: 2em;
 }
 

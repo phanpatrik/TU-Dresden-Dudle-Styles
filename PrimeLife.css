@@ -182,17 +182,16 @@ color:inherit;
 	margin:0;
 	padding:0;
 }
-
-#main {
+#main{
+	margin-left: auto;
+	margin-right:auto; 
+	display:table;
+}
+#content {
 	background: white;
 	padding: 2em;
 	top: 0px;
 	margin-top: 0px;
-	margin-left: auto;
-	margin-right:auto;
-	width:auto;
-	display: table;
-	min-width: 55em;
 	
 	background-image:url(primelife/primelife-body-bg.jpg);
 	background-position:80% 100%;
@@ -213,8 +212,6 @@ color:inherit;
 }
 
 div#tabs{
-	text-align: center;
-	
 	min-height:4.5ex;
 	background-color:#6D8AB2;
 	background-image:url(primelife/primelife-top-bg.jpg);
@@ -223,7 +220,7 @@ div#tabs{
 	border-top:6px solid #FFC13C;
 }
 
-body#main, div#tabs ul{
+div#tabs ul{
 	margin-top: 2em;
 }
 
