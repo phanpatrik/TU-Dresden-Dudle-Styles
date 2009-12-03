@@ -182,10 +182,18 @@ color:inherit;
 	margin:0;
 	padding:0;
 }
+#header3 {
+	border-top:6px solid #FFC13C;
+	background-image:url(primelife/primelife-top-bg.jpg);
+	background-position:right top;
+	background-repeat:repeat-y;
+	height: 4.5ex;
+}
 #main{
 	margin-left: auto;
 	margin-right:auto; 
 	display:table;
+	margin-top: -3.5ex;
 }
 #content {
 	background: white;
@@ -209,19 +217,6 @@ color:inherit;
 }
 .hint{
 	font-size:small;
-}
-
-div#tabs{
-	min-height:4.5ex;
-	background-color:#6D8AB2;
-	background-image:url(primelife/primelife-top-bg.jpg);
-	background-position:right top;
-	background-repeat:repeat-y;
-	border-top:6px solid #FFC13C;
-}
-
-div#tabs ul{
-	margin-top: 2em;
 }
 
 div#tabs ul, p#history{
