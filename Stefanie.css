@@ -28,7 +28,7 @@ text-decoration:underline;
 }
 
 td.ayes, td.bmaybe, td.cno { cursor:default; border:2px solid;}
-td.ayes, input.choosen  { background-color:#fff; border-color:#6c6}
+td.ayes, input.chosen  { background-color:#fff; border-color:#6c6}
 td.cno { background-color:#Fff; border-color:#f63 }
 td.bmaybe { background-color:#FFf; border-color:#ccc}
 td.undecided { background-color:#fff;color:#ccc }
@@ -59,8 +59,8 @@ th.weekday{
 	width: 2.5em;
 }
 
-input.choosen { background-color:#ccc; }
-input.navigation, input.disabled, input.choosen, input.notchoosen {
+input.chosen { background-color:#ccc; }
+input.navigation, input.disabled, input.chosen, input.notchosen {
 	border-width: 1px; 
 	border-style: solid;
 	border-color: black;
