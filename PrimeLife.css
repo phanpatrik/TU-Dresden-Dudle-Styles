@@ -35,8 +35,7 @@ td.ayes, td.bmaybe, td.cno { cursor:default;}
 td.ayes, td.input-ayes, input.chosen  { background-color:#9C6}
 td.cno, td.input-cno { background-color:#FC9 }
 td.bmaybe, td.input-bmaybe { background-color:#FF6}
-td.undecided { background-color:#EEE }
-tr#add_participant { background-color:#EEE; }
+td.undecided { background-color:#EBF2FA }
 
 td.checkboxes {
 	background-color: #DDD;
@@ -297,8 +296,8 @@ div.comment {
 	line-height: 1.4em;
 }
 
-form#ac_participant, form#ac {
-	background: #EEE;
+form#ac_participant, form#ac, tr#add_participant {
+	background-color:#EBF2FA;
 }
 form#ac_participant, form#ac, form#ac_admin{
 	padding: 1em;
