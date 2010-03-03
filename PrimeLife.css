@@ -17,6 +17,19 @@
 * along with dudle.  If not, see <http://www.gnu.org/licenses/>.           *
 ***************************************************************************/
 
+.invisible {
+	visibility: hidden;
+}
+
+a {
+	border:medium none;
+	color:#6D8AB2;
+	text-decoration:underline;
+}
+
+th a {
+	color:white;
+}
 
 td.ayes, td.bmaybe, td.cno { cursor:default;}
 td.ayes, td.input-ayes, input.chosen  { background-color:#9C6}
@@ -116,7 +129,7 @@ td {
 	padding-right: 3px;
 }
 
-td.sum, tr.participantrow, tr#add_participant, tr#summary { 
+td.sum, tr.participantrow, tr#add_participant, tr#summary td { 
 	background-color:Silver;
 }
 
@@ -191,10 +204,11 @@ color:inherit;
 }
 #main{
 	margin-left: auto;
-	margin-right:auto; 
+	margin-right: auto; 
 	display:table;
 	margin-top: -3.5ex;
 }
+
 #content {
 	background: white;
 	padding: 2em;
