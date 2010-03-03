@@ -28,7 +28,7 @@ a {
 }
 
 input {
-	color:#617BA0;
+	color:inherit;
 }
 
 td.ayes, td.bmaybe, td.cno { cursor:default;}
