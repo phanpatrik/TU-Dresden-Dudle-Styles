@@ -17,6 +17,18 @@
 * along with dudle.  If not, see <http://www.gnu.org/licenses/>.           *
 ***************************************************************************/
 
+.invisible {
+	visibility: hidden;
+}
+
+#tablist {
+	white-space: nowrap;
+}
+
+input {
+	color: inherit;
+}
+
 a, a:visited {
 color:#606;
 text-decoration:none;
@@ -137,7 +149,7 @@ tr.participantrow, tr#add_participant{
 	background-color:#fff;
 }
 	
-td.sum, tr#summary { 
+td.sum { 
 	margin-top:5ex;
 	background-color:#eee;
 }

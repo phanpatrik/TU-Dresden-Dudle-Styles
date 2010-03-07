@@ -17,12 +17,25 @@
 * along with dudle.  If not, see <http://www.gnu.org/licenses/>.           *
 ***************************************************************************/
 
+.invisible {
+	visibility: hidden;
+}
+
+a {
+	border:medium none;
+	color:#6D8AB2;
+	text-decoration:underline;
+}
+
+input {
+	color:inherit;
+}
 
 td.ayes, td.bmaybe, td.cno { cursor:default;}
 td.ayes, td.input-ayes, input.chosen  { background-color:#9C6}
 td.cno, td.input-cno { background-color:#FC9 }
 td.bmaybe, td.input-bmaybe { background-color:#FF6}
-td.undecided { background-color:#DDD }
+td.undecided { background-color:#EBF2FA }
 
 td.checkboxes {
 	background-color: #DDD;
@@ -46,7 +59,6 @@ td.name {
 
 td.name a,td.name a:visited {
 	text-decoration: none;
-	color: black;
 }
 
 th.weekday{
@@ -71,7 +83,6 @@ input.disabled { background-color:#DDD;color:#BBB}
 
 table { 
 	border: none; 
-	color:black;
 }
 
 table.calendarday {
@@ -116,33 +127,32 @@ td {
 	padding-right: 3px;
 }
 
-td.sum, tr.participantrow, tr#add_participant, tr#summary { 
-	background-color:Silver;
-}
-
 td.polls {
 	text-align:left;
 }
 
-tr.participantrow:hover {
-	background: #AAA;
+tr.participantrow:hover .name,
+tr.participantrow:hover .date {
+	background: #6D8AB2;;
+	color: white;
+}
+
+tr.participantrow:hover .name a{
+	color: inherit;
 }
 
 th { 
 	padding-left: 3px;
 	padding-right: 3px;
 	color: white;
-	background-color:black;
-	font-weight: normal;
+	background-color:#6D8AB2;
+	font-weight: bold;
+	border-width:0;
 }
 
 th a{
 	color: white;
 	text-decoration: none;
-}
-
-td.date { 
-	color: Gray;
 }
 
 html {
@@ -191,10 +201,11 @@ color:inherit;
 }
 #main{
 	margin-left: auto;
-	margin-right:auto; 
+	margin-right: auto; 
 	display:table;
 	margin-top: -3.5ex;
 }
+
 #content {
 	background: white;
 	padding: 2em;
@@ -233,6 +244,7 @@ div#tabs ul{
 div#tabs li{
 	background: white;
 	border-width: 1px;
+	border-color:#617BA0;
 	display: inline;
 	
 	-moz-border-radius-topleft:8px;
@@ -284,8 +296,8 @@ div.comment {
 	line-height: 1.4em;
 }
 
-form#ac_participant, form#ac {
-	background: #EEE;
+form#ac_participant, form#ac, tr#add_participant {
+	background-color:#EBF2FA;
 }
 form#ac_participant, form#ac, form#ac_admin{
 	padding: 1em;

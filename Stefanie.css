@@ -137,7 +137,7 @@ tr.participantrow, tr#add_participant{
 	background-color:#fff;
 }
 	
-td.sum, tr#summary { 
+td.sum { 
 	margin-top:5ex;
 	background-color:#eee;
 }
