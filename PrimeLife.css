@@ -1,5 +1,5 @@
 /***************************************************************************
-* Copyright 2009 Benjamin Kellermann, Hagen Wahrig                         *
+* Copyright 2009,2010 Benjamin Kellermann, Hagen Wahrig                    *
 *                                                                          *
 * This file is part of dudle.                                              *
 *                                                                          *
@@ -74,9 +74,24 @@ input.navigation, input.disabled, input.chosen, input.notchosen {
 	width: 100%;
 }
 
-input.navigation {
-	color: white; 
-	background-color: black;
+input.navigation, input.delete {
+	background-color:#6D8AB2;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+input.navigation:hover, input.delete:hover {
+	background-color:#4D6A92;
+}
+
+
+.notchosen, .disabled {
+	background-color: #EEE;
+}
+
+.notchosen:hover, .disabled:hover {
+	background-color: #CCC;
 }
 
 input.disabled { background-color:#DDD;color:#BBB}
@@ -220,10 +235,12 @@ color:inherit;
 }
 
 .textcolumn{
+	text-align: left;
 	max-width: 45em;
 }
 
 .shorttextcolumn{
+	text-align: left;
 	max-width: 20em;
 }
 .hint{
@@ -301,4 +318,14 @@ form#ac_participant, form#ac, tr#add_participant {
 }
 form#ac_participant, form#ac, form#ac_admin{
 	padding: 1em;
+}
+
+#languageChooser {
+	margin-top:10px;
+	border-top: 1px solid #CCC;
+	padding-top: 10px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
 }
