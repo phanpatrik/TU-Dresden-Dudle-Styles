@@ -247,6 +247,10 @@ color:inherit;
 	font-size:small;
 }
 
+div#tabs {
+	min-width:65em;
+}
+
 div#tabs ul, p#history{
 	font-size: 80%;
 }
