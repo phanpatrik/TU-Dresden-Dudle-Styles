@@ -30,6 +30,9 @@ a {
 input {
 	color:inherit;
 }
+input[disabled]{
+	color:#c5cbd4;
+}
 
 td.ayes, td.bmaybe, td.cno { cursor:default;}
 td.ayes, td.input-ayes, input.chosen  { background-color:#9C6}
@@ -155,12 +158,13 @@ tr.participantrow:hover .date {
 tr.participantrow:hover .name a{
 	color: inherit;
 }
-
+th, td.navigation {
+	color: white;
+	background-color:#6D8AB2;
+}
 th { 
 	padding-left: 3px;
 	padding-right: 3px;
-	color: white;
-	background-color:#6D8AB2;
 	font-weight: bold;
 	border-width:0;
 }
@@ -229,6 +233,15 @@ color:inherit;
 	background-position:80% 100%;
 	background-repeat:no-repeat;
 	-moz-border-radius-topleft:8px;
+}
+#wizzard_navigation{
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 2ex;
+}
+#wizzard_navigation table, #wizzard_navigation table td{
+	padding-left:0;
+	border-spacing:0;
 }
 
 .textcolumn{
@@ -304,6 +317,7 @@ pre#configwarning {
 }
 .warning, .error{
 	color: red;
+	text-align: left;
 }
 
 h1 {
