@@ -344,4 +344,5 @@ form#ac_participant, form#ac, form#ac_admin{
 	margin-right: auto;
 	margin-left: auto;
 	width: 60%;
+	min-height: 50px;
 }
