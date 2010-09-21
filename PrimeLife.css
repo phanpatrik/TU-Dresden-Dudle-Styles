@@ -116,6 +116,10 @@ table.calendarday td {
 	padding: 0px;
 	margin: 0px;
 }
+table.calendarday td.navigation{
+	padding-left: 0.5ex;
+	padding-right: 0.5ex;
+}
 
 table.calendarday td input{
 	margin: 0px;
@@ -221,6 +225,8 @@ color:inherit;
 #main{
 	margin-left: 50px;
 	margin-top: -4ex;
+	min-height: 477px;
+	background: url(primelife/white.png) repeat-x bottom;
 }
 
 #content {
