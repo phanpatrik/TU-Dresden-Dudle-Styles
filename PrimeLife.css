@@ -137,6 +137,16 @@ td.settingstable, table.settingstable td{
 table.settingstable td.label{
 	text-align: right;
 }
+td.separator_top{
+	border-top:solid thin;
+	padding-top:0.7ex;
+}
+td.separator_bottom{
+	padding-bottom:0.7ex;
+}
+tr#usernamesetting {
+	height: 1.7em
+}
 
 td.historycomment{
 	text-align: left;
@@ -153,19 +163,19 @@ td.polls {
 	text-align:left;
 }
 
-tr.participantrow:hover .name,
-tr.participantrow:hover .date {
-	background: #6D8AB2;;
-	color: white;
+tr.participantrow:hover {
+	background: #ebf2fa;
 }
 
 tr.participantrow:hover .name a{
 	color: inherit;
 }
+
 th, td.navigation {
 	color: white;
 	background-color:#6D8AB2;
 }
+
 th { 
 	padding-left: 3px;
 	padding-right: 3px;
