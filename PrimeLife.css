@@ -77,14 +77,14 @@ input.navigation, input.disabled, input.chosen, input.notchosen {
 	width: 100%;
 }
 
-input.navigation, input.delete {
+input.navigation, input.delete, input.toggle {
 	background-color:#6D8AB2;
 	border: none;
 	color: white;
 	cursor: pointer;
 }
 
-input.navigation:hover, input.delete:hover {
+input.navigation:hover, input.delete:hover, input.toggle:hover {
 	background-color:#4D6A92;
 }
 

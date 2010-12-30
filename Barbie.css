@@ -1,5 +1,5 @@
 /***************************************************************************
-* Copyright 2009 Benjamin Kellermann                                       *
+* Copyright 2009,2010 Benjamin Kellermann, Stefanie Pötzsch                *
 *                                                                          *
 * This file is part of dudle.                                              *
 *                                                                          *
@@ -81,9 +81,16 @@ input.navigation, input.disabled, input.chosen, input.notchosen {
 	width: 100%;
 }
 
-input.navigation {
-	color: white; 
-	background-color: black;
+input.navigation, input.toggle, input.delete {
+	color: #333; 
+	background-color: #eee;
+	border: none; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+.navigation, .delete, .toggle{
+	background-color: #EEE;
 }
 
 input.disabled { background-color:#eee;color:#ccc}
@@ -194,10 +201,12 @@ html {
 }
 
 .textcolumn{
+	text-align: justify;
 	max-width: 45em;
 }
 
 .shorttextcolumn{
+	text-align: left;
 	max-width: 20em;
 }
 .hint{

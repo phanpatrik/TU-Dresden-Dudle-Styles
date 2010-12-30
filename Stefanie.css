@@ -59,11 +59,18 @@ td.name {
 	background-color:#36c;
 }
 
+input.delete, input.toggle{
+	border: none; 
+	padding: 0px;
+	cursor: pointer;
+	background-color:#eee;
+}
+
 th.weekday{
 	width: 2.5em;
 }
 
-input.chosen { background-color:#ccc; }
+
 input.navigation, input.disabled, input.chosen, input.notchosen {
 	border-width: 1px; 
 	border-style: solid;
@@ -74,9 +81,13 @@ input.navigation, input.disabled, input.chosen, input.notchosen {
 }
 
 input.navigation {
-	background-color: #eee;
 	border: none;
 }
+
+.navigation {
+	background-color: #eee;
+}
+
 
 input.disabled { background-color:#eee;color:#ccc}
 
@@ -186,10 +197,12 @@ html {
 }
 
 .textcolumn{
+	text-align: justify;
 	max-width: 45em;
 }
 
 .shorttextcolumn{
+	text-align: left;
 	max-width: 20em;
 }
 .hint{
