@@ -249,6 +249,7 @@ color:inherit;
 	background-position:80% 100%;
 	background-repeat:no-repeat;
 	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
 }
 #wizzard_navigation{
 	margin-left: 0;
@@ -295,8 +296,8 @@ div#tabs li{
 	border-color:#617BA0;
 	display: inline;
 	
-	-moz-border-radius-topleft:8px;
-	-moz-border-radius-topright:8px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
 }
 
 div#tabs a{
