@@ -1,0 +1,333 @@
+/***************************************************************************
+* Copyright 2011 Benjamin Kellermann                                       *
+*                                                                          *
+* This file is part of dudle.                                              *
+*                                                                          *
+* Dudle is free software: you can redistribute it and/or modify it under   *
+* the terms of the GNU Affero General Public License as published by       *
+* the Free Software Foundation, either version 3 of the License, or        *
+* (at your option) any later version.                                      *
+*                                                                          *
+* Dudle is distributed in the hope that it will be useful, but WITHOUT ANY *
+* WARRANTY; without even the implied warranty of MERCHANTABILITY or        *
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public     *
+* License for more details.                                                *
+*                                                                          *
+* You should have received a copy of the GNU Affero General Public License *
+* along with dudle.  If not, see <http://www.gnu.org/licenses/>.           *
+***************************************************************************/
+
+/* head */
+
+body {
+	margin: 0px;
+	color: black;
+	font: 70% Verdana,Helvetica,Arial,sans-serif;
+	background-color: #CCC;
+	padding: .5em .5em 1em;
+}
+
+#header1 {
+	background-color:#0b2a51;
+	width:1px;
+	float:left;
+	padding: 10px;
+	margin 0;
+}
+#header2{
+	background-color:#0b2a51;
+	padding: 0 0 20px 150px;
+	background-image:url(tud/logo.png);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	height:42px;
+	float:left;
+/*  margin: 0 1.275em 0 0;*/
+}
+#header3 {
+	background-color:#0b2a51;
+	height:72px;
+	padding: 0;
+	margin 0;
+}
+#header4 {
+	min-height:1.37em;
+	padding: .4em 0 .4em 68px;
+	background-color: #4E647E;
+}
+
+
+
+/* main content */
+
+
+#main{
+	background-color: white;
+	border: 1px solid #EEE;
+}
+
+label { cursor: pointer; }
+
+#tabs{
+	float:left;
+	padding-top: 1.5625em;
+	width: 15em;
+}
+#tabs ul{
+	list-style:none;
+	margin: 0;
+	margin-top:.5em;
+	padding: 0;
+}
+
+#tabs li.nonactive_tab , #tabs li.active_tab{
+	background-color: #FFF;
+	background-image: url(tud/big_emptynode_close.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #333;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: .3em .3em .4em 0;
+	padding-left: 28px;
+}
+
+#tabs li#active_tab, #tabs li.nonactive_tab:hover {
+	background-color: #CCD6DF;
+}
+#tabs li#active_tab{
+	background-image: url(tud/big_emptynode_open.gif);
+}
+
+#tabs li.nonactive_tab a {
+	border-bottom: none;
+	color: #333;
+}
+#tabs li.separator_tab {
+	border-top: 1px solid #ccc;
+}
+
+#content{
+	margin-top:0;
+	margin-left: 15em;
+	padding-top: 1.5625em;
+	padding-left: 1em;
+	padding-bottom: 1.25em;
+	line-height: 1.5em;
+	min-height: 20em;
+	border-left: 1px solid #ccc;
+}
+
+#tabs:before {
+	content:"dudle";
+	margin: 0 0 0 1em;
+	padding: 0 .5625em .375em;
+	width: 15em;
+}
+
+
+
+/* content */
+
+.invisible {
+	border:none;
+	visibility: hidden;
+}
+
+.textcolumn{
+	text-align: left;
+	max-width: 45em;
+}
+
+.shorttextcolumn{
+	text-align: left;
+	max-width: 20em;
+}
+
+h1, h2, h3, #tabs:before {
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+h1, #tabs:before {
+	border-bottom: dotted 1px #333;
+	color: #333;
+	line-height: normal;
+}
+h1 {
+	margin: 0 0 1.875em -.5625em;
+	padding: 0 .5625em .375em;
+}
+
+h2, h3{
+	color: #666;
+	font-style: normal;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+
+h3 {
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: .05em;
+	text-transform: none;
+}
+
+a, a:active {
+	color: #40779E;
+	text-decoration: none;
+	border-bottom: 1px solid #DDD;
+}
+
+td {
+	vertical-align:middle;
+	text-align:center;
+}
+th {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	border: #999 2px solid;
+	background-color: #CCD6DF;
+}
+th a {
+	border: none;
+}
+
+td.separator_top{
+	border-top: dotted 1px #333;
+	padding-top:0.7ex;
+}
+
+th.weekday{
+	width: 2.5em;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+input.navigation, input.disabled, input.chosen, input.notchosen, input.delete, input.toggle {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+	min-height: 1.5em;
+}
+input.navigation, input.disabled, input.chosen, input.notchosen, input.toggle {
+	width: 100%;
+}
+.navigation, input.delete, input.toggle {
+	background-color: #CCD6DF;
+} 
+.navigation:hover, input.delete:hover, input.toggle:hover {
+	background-color: #b6ccdf;
+}
+input.chosen { 
+	border: #40779E 2px solid;
+}
+
+td.ayes, table.checkboxes tr.input-ayes td { 
+	border: #8FC398 2px solid;
+}
+input.disabled, td.undecided {
+	color: #999;
+}
+td.cno, table.checkboxes tr.input-cno td { 
+	border: #F5C180 2px solid;
+}
+td.bmaybe, table.checkboxes tr.input-bmaybe td { 
+	border: #A8AFC7 2px solid;
+}
+
+input.notchosen, input.chosen, input.disabled {
+	background-color: #FFF;
+}
+input.notchosen:hover, input.chosen:hover, input.disabled:hover {
+	border: #84939e 2px solid;
+}
+
+
+td.settingstable, table.settingstable td{
+	text-align: left;
+}
+table.settingstable td.label{
+	text-align: right;
+}
+
+table.calendarday td{
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+	border: #999 1px solid;
+}
+table.calendarday td.navigation{
+	border: none;
+	padding:0 .5em 0 .5em;
+}
+table.calendarday td.invisible, table.calendarday td.addColumnManual {
+	border: none;
+}
+table.polltable {
+	padding: 10px;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+table.polltable td {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	margin: 1em;
+}
+
+td.name {
+	text-align: right;
+}
+table.polltable tr.participantrow:hover {
+	background-color: #E5EBF2;
+}
+table.polltable td.checkboxes {
+	padding:0;
+	margin: 0;
+}
+
+table.checkboxes {
+	border-spacing: 0;
+	width: 100%;
+}
+
+table.polltable tr td.input-radio {
+	border-right:none;
+}
+table.polltable tr td.input-label {
+	border-left:none;
+}
+
+tr#add_participant {
+	background-color: #f5f9fc;
+}
+
+form#ac_participant, form#ac {
+	background-color: #E5EBF2;
+}
+form#ac_participant, form#ac, form#ac_admin{
+	padding: 1em;
+}
+
+div#wizzard_navigation {
+	text-align: center;
+}
+
+div#languageChooser{
+	color: #999;
+	font-weight: 700;
+	background-color: #0B2A51;
+	height:1.375em;
+	border: none;
+	padding: .4em 1.25em;
+	margin: 0;
+}
+div#languageChooser a {
+	border: none;
+	color: #FFF;
+}
+div#languageChooser a:hover {
+	text-decoration: underline;
+}
