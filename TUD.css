@@ -186,13 +186,30 @@ td {
 	vertical-align:middle;
 	text-align:center;
 }
-th {
+th, td.navigation {
 	padding: 0.25em 0.5em 0.25em 0.5em;
-	border: #999 2px solid;
 	background-color: #CCD6DF;
+/*  border: #999 1px solid;*/
+	border: none;
 }
 th a {
 	border: none;
+}
+
+#active {
+	background-color:#89b6df;
+}
+pre#configwarning {
+	font-family: "Courier New",Courier,monospace;
+	letter-spacing:0;
+	margin-top: -12ex;
+	line-height:95%;
+	margin-left: -2ex;
+}
+
+.warning, .error{
+	color: #E87B14;
+	text-align: left;
 }
 
 td.separator_top{
@@ -219,30 +236,31 @@ input.navigation, input.disabled, input.chosen, input.notchosen, input.toggle {
 	background-color: #CCD6DF;
 } 
 .navigation:hover, input.delete:hover, input.toggle:hover {
-	background-color: #b6ccdf;
+	background-color: #b9cddf;
 }
 input.chosen { 
-	border: #40779E 2px solid;
+	background-color: #7bafdf;
 }
 
 td.ayes, table.checkboxes tr.input-ayes td { 
-	border: #8FC398 2px solid;
+	background-color: #D3E7C5;
 }
 input.disabled, td.undecided {
 	color: #999;
 }
 td.cno, table.checkboxes tr.input-cno td { 
-	border: #F5C180 2px solid;
+	background-color: #F4E0E8;
 }
 td.bmaybe, table.checkboxes tr.input-bmaybe td { 
-	border: #A8AFC7 2px solid;
+	background-color: #FDF2D1;
+
 }
 
-input.notchosen, input.chosen, input.disabled {
+input.notchosen, input.disabled {
 	background-color: #FFF;
 }
 input.notchosen:hover, input.chosen:hover, input.disabled:hover {
-	border: #84939e 2px solid;
+	background-color: #b9cddf;
 }
 
 
@@ -260,8 +278,7 @@ table.calendarday td{
 	border: #999 1px solid;
 }
 table.calendarday td.navigation{
-	border: none;
-	padding:0 .5em 0 .5em;
+	padding: 0 .5em 0 .5em;
 }
 table.calendarday td.invisible, table.calendarday td.addColumnManual {
 	border: none;
