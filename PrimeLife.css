@@ -364,3 +364,7 @@ form#ac_participant, form#ac, form#ac_admin{
 	background-position:80% 0px;
 	background-repeat:no-repeat;
 }
+div#languageChooser li {
+	list-style:none;
+	display: inline;
+}

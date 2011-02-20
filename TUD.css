@@ -332,9 +332,19 @@ div#wizzard_navigation {
 	text-align: center;
 }
 
-div#languageChooser{
+div#languageChooser {
+	position:absolute;
+	top: 20px;
+	right: 1.2em;
 	color: #999;
 	font-weight: 700;
+}
+div#languageChooser li {
+	list-style:none;
+	display: inline;
+}
+
+#footer1 {
 	background-color: #0B2A51;
 	height:1.375em;
 	border: none;
