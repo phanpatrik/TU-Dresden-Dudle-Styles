@@ -343,6 +343,9 @@ div#languageChooser li {
 	list-style:none;
 	display: inline;
 }
+li.lang ~ li.lang:before {
+	content:"| ";
+}
 
 #footer1 {
 	background-color: #0B2A51;
