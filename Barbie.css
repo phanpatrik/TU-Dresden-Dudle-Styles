@@ -213,6 +213,10 @@ html {
 	font-size:small;
 }
 
+#breadcrumbs {
+	display: none;
+}
+
 div#tabs {
 	min-width:65em;
 }

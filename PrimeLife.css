@@ -21,6 +21,11 @@
 	visibility: hidden;
 }
 
+#breadcrumbs {
+	display: none;
+}
+
+
 a {
 	border:medium none;
 	color:#6D8AB2;
@@ -86,6 +91,13 @@ input.navigation, input.delete, input.toggle {
 
 input.navigation:hover, input.delete:hover, input.toggle:hover {
 	background-color:#4D6A92;
+}
+
+input.delete {
+	padding: 0px;
+}
+table.calendarday td input.toggle {
+	padding:0 0.5em 0 0.5em;
 }
 
 

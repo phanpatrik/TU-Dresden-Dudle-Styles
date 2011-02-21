@@ -20,25 +20,26 @@
 /* head */
 
 body {
-	margin: 0px;
+	padding: 0px;
 	color: black;
 	font: 70% Verdana,Helvetica,Arial,sans-serif;
 	background-color: #CCC;
-	padding: .5em .5em 1em;
+	margin: .5em .5em 1em;
+	border: white 1px solid;
 }
 
 #header1 {
 	background-color:#0b2a51;
-	width:1px;
+	width:20px;
+	height:72px;
 	float:left;
-	padding: 10px;
 	margin 0;
 }
 #header2{
 	background-color:#0b2a51;
-	padding: 0 0 20px 150px;
+	padding: 20px 0 10px 150px;
 	background-image:url(tud/logo.png);
-	background-position:left bottom;
+	background-position:left 20px;
 	background-repeat:no-repeat;
 	height:42px;
 	float:left;
@@ -50,13 +51,19 @@ body {
 	padding: 0;
 	margin 0;
 }
-#header4 {
+#breadcrumbs {
 	min-height:1.37em;
 	padding: .4em 0 .4em 68px;
 	background-color: #4E647E;
+	color: #C6D3DF;
 }
-
-
+#breadcrumbs a {
+	color: #C6D3DF;
+	border-bottom:none;
+}
+#breadcrumbs a:hover {
+	text-decoration: underline;
+}
 
 /* main content */
 
@@ -122,8 +129,8 @@ label { cursor: pointer; }
 #tabs:before {
 	content:"dudle";
 	margin: 0 0 0 1em;
-	padding: 0 .5625em .375em;
-	width: 15em;
+	padding: 0 8em .375em 0;
+	min-width: 15em;
 }
 
 
@@ -232,6 +239,9 @@ input.navigation, input.disabled, input.chosen, input.notchosen, input.delete, i
 input.navigation, input.disabled, input.chosen, input.notchosen, input.toggle {
 	width: 100%;
 }
+input.toggle {
+	padding:0 0.5em 0 0.5em;
+}
 .navigation, input.delete, input.toggle {
 	background-color: #CCD6DF;
 } 
@@ -279,6 +289,7 @@ table.calendarday td{
 }
 table.calendarday td.navigation{
 	padding: 0 .5em 0 .5em;
+	border: none;
 }
 table.calendarday td.invisible, table.calendarday td.addColumnManual {
 	border: none;
@@ -287,6 +298,9 @@ table.polltable {
 	padding: 10px;
 	border-collapse: separate;
 	border-spacing: 2px;
+}
+table, table td {
+	border: none;
 }
 
 table.polltable td {
@@ -334,17 +348,26 @@ div#wizzard_navigation {
 
 div#languageChooser {
 	position:absolute;
-	top: 20px;
+	top:15px;
+	padding:0;
+	margin:0;
 	right: 1.2em;
 	color: #999;
 	font-weight: 700;
 }
-div#languageChooser li {
+div#languageChooser li, #breadcrumbs li {
 	list-style:none;
 	display: inline;
 }
+#breadcrumbs ul {
+	padding:0;
+	margin:0;
+}
 li.lang ~ li.lang:before {
 	content:"| ";
+}
+li.breadcrumb ~ li.breadcrumb:before {
+	content: " » ";
 }
 
 #footer1 {
