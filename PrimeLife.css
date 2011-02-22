@@ -61,7 +61,7 @@ td.name {
 	text-align:right;
 }
 
-#active, #activedeletebutton{
+#active, #active input.delete, #activedeletebutton{
 	background-color:#A00;
 }
 
@@ -89,7 +89,7 @@ input.navigation, input.delete, input.toggle {
 	cursor: pointer;
 }
 
-input.navigation:hover, input.delete:hover, input.toggle:hover {
+input.navigation:hover, a.editcolumn:hover, #active input.delete:hover, input.delete:hover, input.toggle:hover {
 	background-color:#4D6A92;
 }
 

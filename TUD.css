@@ -203,7 +203,7 @@ th a {
 	border: none;
 }
 
-#active {
+#active, #active input.delete {
 	background-color:#89b6df;
 }
 pre#configwarning {
@@ -245,7 +245,10 @@ input.toggle {
 .navigation, input.delete, input.toggle {
 	background-color: #CCD6DF;
 } 
-.navigation:hover, input.delete:hover, input.toggle:hover {
+a.editcolumn {
+	color: black;
+}
+.navigation:hover, #active input.delete:hover, input.delete:hover, a.editcolumn:hover, input.toggle:hover {
 	background-color: #b9cddf;
 }
 input.chosen { 
