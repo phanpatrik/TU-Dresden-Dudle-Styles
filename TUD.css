@@ -100,10 +100,10 @@ label { cursor: pointer; }
 	padding-left: 28px;
 }
 
-#tabs li#active_tab, #tabs li.nonactive_tab:hover {
+#tabs li.active_tab, #tabs li.nonactive_tab:hover {
 	background-color: #CCD6DF;
 }
-#tabs li#active_tab{
+#tabs li.active_tab{
 	background-image: url(tud/big_emptynode_open.gif);
 }
 
