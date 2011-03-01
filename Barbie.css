@@ -38,6 +38,9 @@ a:hover, a:active {
 color:#606;
 text-decoration:underline;
 }
+a.comment_sort, a.top_bottom_ref {
+	font-size: small;
+}
 
 td.ayes, td.bmaybe, td.cno { cursor:default; border:3px double;}
 td.ayes, input.chosen  { background-color:#fff; border-color:#f0c}

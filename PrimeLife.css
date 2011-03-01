@@ -31,6 +31,10 @@ a {
 	color:#6D8AB2;
 	text-decoration:underline;
 }
+a.comment_sort, a.top_bottom_ref {
+	font-size: small;
+	text-decoration:none;
+}
 
 input {
 	color:inherit;

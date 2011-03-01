@@ -33,7 +33,7 @@ body {
 	width:20px;
 	height:72px;
 	float:left;
-	margin 0;
+	margin: 0;
 }
 #header2{
 	background-color:#0b2a51;
@@ -49,8 +49,9 @@ body {
 	background-color:#0b2a51;
 	height:72px;
 	padding: 0;
-	margin 0;
+	margin: 0;
 }
+
 #breadcrumbs {
 	min-height:1.37em;
 	padding: .4em 0 .4em 68px;
@@ -59,10 +60,6 @@ body {
 }
 #breadcrumbs a {
 	color: #C6D3DF;
-	border-bottom:none;
-}
-#breadcrumbs a:hover {
-	text-decoration: underline;
 }
 
 /* main content */
@@ -186,7 +183,10 @@ h3 {
 a, a:active {
 	color: #40779E;
 	text-decoration: none;
-	border-bottom: 1px solid #DDD;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 td {
