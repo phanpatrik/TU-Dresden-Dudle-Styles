@@ -354,6 +354,19 @@ h1 {
 	text-align: center;
 }
 
+td.sum{ color: #FFF}
+td.match_100{background-color: #6D8AB2; }
+td.match_90{ background-color: #728db2; }
+td.match_80{ background-color: #7790b2; }
+td.match_70{ background-color: #7d93b2; }
+td.match_60{ background-color: #8296b2; }
+td.match_50{ background-color: #8799b2; }
+td.match_40{ background-color: #8d9cb2; }
+td.match_30{ background-color: #929fb2; }
+td.match_20{ background-color: #97a3b2; }
+td.match_10{ background-color: #9da6b2; }
+td.match_0{  background-color: #a2a9b2; }
+
 div.comment { 
 	margin-top: 1ex; 
 	line-height: 1.4em;

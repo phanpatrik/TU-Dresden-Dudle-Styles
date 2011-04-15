@@ -193,7 +193,7 @@ td {
 	vertical-align:middle;
 	text-align:center;
 }
-th, td.navigation {
+th, td.navigation, td.sum {
 	padding: 0.25em 0.5em 0.25em 0.5em;
 	background-color: #CCD6DF;
 /*  border: #999 1px solid;*/
@@ -202,6 +202,19 @@ th, td.navigation {
 th a {
 	border: none;
 }
+td.sum{ color: #FFF}
+td.match_100{background-color: #0B2A51; }
+td.match_90{ background-color: #1D355B; }
+td.match_80{ background-color: #2F4067; }
+td.match_70{ background-color: #3F4F74; }
+td.match_60{ background-color: #515D80; }
+td.match_50{ background-color: #636C8E; }
+td.match_40{ background-color: #777F9E; }
+td.match_30{ background-color: #8B94B1; }
+td.match_20{ background-color: #A8AFC7; }
+td.match_10{ background-color: #CDD4E2; }
+td.match_0{  background-color: #D9DCE2; }
+
 
 #active, #active input.delete {
 	background-color:#89b6df;
