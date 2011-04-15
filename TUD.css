@@ -268,16 +268,16 @@ input.chosen {
 	background-color: #7bafdf;
 }
 
-td.ayes, table.checkboxes tr.input-ayes td { 
+td.a_yes__, table.checkboxes tr.input-a_yes__ td { 
 	background-color: #D3E7C5;
 }
 input.disabled, td.undecided {
 	color: #999;
 }
-td.cno, table.checkboxes tr.input-cno td { 
+td.c_no___, table.checkboxes tr.input-c_no___ td { 
 	background-color: #F4E0E8;
 }
-td.bmaybe, table.checkboxes tr.input-bmaybe td { 
+td.b_maybe, table.checkboxes tr.input-b_maybe td { 
 	background-color: #FDF2D1;
 
 }

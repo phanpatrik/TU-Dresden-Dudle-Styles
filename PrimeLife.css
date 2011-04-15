@@ -43,9 +43,9 @@ input[disabled]{
 	color:#c5cbd4;
 }
 
-td.ayes, td.bmaybe, td.cno { cursor:default;}
-td.ayes, tr.input-ayes td, input.chosen  { background-color:#9C6}
-td.cno, tr.input-cno td { background-color:#FC9 }
+td.a_yes__, td.bmaybe, td.c_no___ { cursor:default;}
+td.a_yes__, tr.input-a_yes__ td, input.chosen  { background-color:#9C6}
+td.c_no___, tr.input-c_no___ td { background-color:#FC9 }
 td.bmaybe, tr.input-bmaybe td { background-color:#FF6}
 td.undecided { background-color:#EBF2FA }
 

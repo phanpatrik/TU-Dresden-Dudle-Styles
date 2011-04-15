@@ -34,12 +34,12 @@ a.comment_sort, a.top_bottom_ref {
 	font-size: small;
 }
 
-td.ayes, td.bmaybe, td.cno { cursor:default; border:2px solid;}
-td.ayes, input.chosen  { background-color:#fff; border-color:#6c6}
-td.cno { background-color:#Fff; border-color:#f63 }
+td.a_yes__, td.bmaybe, td.c_no___ { cursor:default; border:2px solid;}
+td.a_yes__, input.chosen  { background-color:#fff; border-color:#6c6}
+td.c_no___ { background-color:#Fff; border-color:#f63 }
 td.bmaybe { background-color:#FFf; border-color:#ccc}
 td.undecided { background-color:#fff;color:#ccc }
-td.input-ayes, td.input-cno, td.input-bmaybe {background-color:#fff; color:#000; border:none;}
+td.input-a_yes__, td.input-c_no___, td.input-bmaybe {background-color:#fff; color:#000; border:none;}
 td.checkboxes {
 	background-color: #fff;
 	padding-left: 0px;
