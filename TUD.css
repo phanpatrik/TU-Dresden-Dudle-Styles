@@ -371,7 +371,7 @@ div#languageChooser {
 	color: #999;
 	font-weight: 700;
 }
-div#languageChooser li, #breadcrumbs li {
+div#languageChooser li, #breadcrumbs li, #footer1 li {
 	list-style:none;
 	display: inline;
 }
@@ -388,11 +388,20 @@ li.breadcrumb ~ li.breadcrumb:before {
 
 #footer1 {
 	background-color: #0B2A51;
-	height:1.375em;
+	height: 2.15em;
 	border: none;
+}
+#footer1 a {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 1.25em;
+}
+#footer1 ul {
 	padding: .4em 1.25em;
 	margin: 0;
 }
+
 div#languageChooser a {
 	border: none;
 	color: #FFF;
