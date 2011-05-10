@@ -229,7 +229,6 @@ pre#configwarning {
 
 .warning, .error{
 	color: #E87B14;
-	text-align: left;
 }
 
 td.separator_top{
