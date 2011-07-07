@@ -175,6 +175,9 @@ td {
 	padding-right: 3px;
 }
 
+#polltable {
+	overflow: auto;
+}
 td.polls {
 	text-align:left;
 }

@@ -188,7 +188,6 @@ html {
 #main{
 	margin-left: auto;
 	margin-right:auto; 
-	display:table;
 }
 #content {
 	background: #fff;
@@ -284,6 +283,9 @@ h2 {
 	font-weight:bold;
 	color:#000;
 	margin-bottom:1em;
+}
+#polltable {
+	overflow: auto;
 }
 
 div.comment { 

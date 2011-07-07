@@ -314,6 +314,9 @@ table.polltable {
 	border-collapse: separate;
 	border-spacing: 2px;
 }
+#polltable {
+	overflow: auto;
+}
 table, table td {
 	border: none;
 }
