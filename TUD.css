@@ -256,27 +256,27 @@ input.toggle {
 }
 .navigation, input.delete, input.toggle {
 	background-color: #CCD6DF;
-} 
+}
 a.editcolumn {
 	color: black;
 }
 .navigation:hover, #active input.delete:hover, input.delete:hover, a.editcolumn:hover, input.toggle:hover {
 	background-color: #b9cddf;
 }
-input.chosen { 
+input.chosen {
 	background-color: #7bafdf;
 }
 
-td.a_yes__, table.checkboxes tr.input-a_yes__ td { 
+td.a_yes__, table.checkboxes tr.input-a_yes__ td {
 	background-color: #D3E7C5;
 }
 input.disabled, td.undecided {
 	color: #999;
 }
-td.c_no___, table.checkboxes tr.input-c_no___ td { 
+td.c_no___, table.checkboxes tr.input-c_no___ td {
 	background-color: #F4E0E8;
 }
-td.b_maybe, table.checkboxes tr.input-b_maybe td { 
+td.b_maybe, table.checkboxes tr.input-b_maybe td {
 	background-color: #FDF2D1;
 
 }
@@ -373,9 +373,9 @@ div#languageChooser {
 	color: #999;
 	font-weight: 700;
 }
-div#languageChooser li, #breadcrumbs li, #footer1 li {
+div#languageChooser li, #breadcrumbs li, #footertud li {
 	list-style:none;
-	display: inline;
+	display: inline !important;
 }
 #breadcrumbs ul {
 	padding:0;
@@ -388,18 +388,18 @@ li.breadcrumb ~ li.breadcrumb:before {
 	content: " » ";
 }
 
-#footer1 {
+#footertud {
 	background-color: #0B2A51;
 	height: 2.15em;
 	border: none;
 }
-#footer1 a {
+#footertud a {
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
 	margin-right: 1.25em;
 }
-#footer1 ul {
+#footertud ul {
 	padding: .4em 1.25em;
 	margin: 0;
 }
